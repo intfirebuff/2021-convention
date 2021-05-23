@@ -41,10 +41,11 @@ const Contact = (props) => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
+                        <h3>Hotel Address</h3>
+                        <span>Homewood Suites by Hilton Ottawa Downtown<br />
+                        361 Queen St<br />
+                        Ottawa, ON<br/>
+                        K1R 0C7</span>
                     </div>
                 </section>
             </section>
