@@ -28,7 +28,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">information@untitled.tld</a>
+                        <a href="mailto:2021ifba@gmail.com">2021ifba@gmail.com</a>
                     </div>
                 </section>
                 <section>
@@ -41,11 +41,12 @@ const Contact = (props) => (
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
-                        <h3>Hotel Address</h3>
-                        <span>Homewood Suites by Hilton Ottawa Downtown<br />
+                        <h3>Hotel</h3>
+                        <span>HOMEWOOD SUITES by HILTON OTTAWA DOWNTOWN<br />
                         361 Queen St<br />
                         Ottawa, ON<br/>
-                        K1R 0C7</span>
+                        K1R 0C7<br/>
+                        (613) 234-6363</span>
                     </div>
                 </section>
             </section>
