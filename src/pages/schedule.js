@@ -36,7 +36,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>18:00 - 23:00</td>
-                                <td>Hospitality Room</td>
+                                <td>Hospitality room</td>
                             </tr>
                         </tbody>
                     </table>
@@ -53,7 +53,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>09:00</td>
-                                <td>Opening Ceremonies</td>
+                                <td>Opening ceremonies</td>
                             </tr>
                             <tr>
                                 <td>10:15 - 11:45</td>
@@ -69,7 +69,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>18:00 - 23:00</td>
-                                <td>Hospitality Room</td>
+                                <td>Hospitality room</td>
                             </tr>
                         </tbody>
                     </table>
@@ -87,17 +87,17 @@ const Schedule = (props) => (
                             <tr>
                                 <td>08:30</td>
                                 <td>
-                                    Board buses for Ottawa Fire Training Center<br/>
+                                    Board buses for Ottawa Fire Training Centre<br/>
                                     898 Industrial Avenue
                                 </td>
                             </tr>
                             <tr>
                                 <td>09:00</td>
-                                <td>Ottawa Fire Apparatus Display</td>
+                                <td>Ottawa Fire apparatus display</td>
                             </tr>
                             <tr>
                                 <td>12:00 - 13:00</td>
-                                <td>Lunch at the Training Center</td>
+                                <td>Lunch at Training Centre</td>
                             </tr>
                             <tr>
                                 <td>15:00</td>
@@ -111,7 +111,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>18:00 - 23:00</td>
-                                <td>Hospitality Room</td>
+                                <td>Hospitality room</td>
                             </tr>
                         </tbody>
                     </table>
@@ -134,7 +134,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>09:00</td>
-                                <td>Service Incendie de Gatineau Apparatus Display</td>
+                                <td>Service Incendie de Gatineau apparatus display</td>
                             </tr>
                             <tr>
                                 <td>11:00</td>
@@ -156,7 +156,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>18:00 - 23:00</td>
-                                <td>Hospitality Room</td>
+                                <td>Hospitality room</td>
                             </tr>
                         </tbody>
                     </table>
@@ -181,7 +181,7 @@ const Schedule = (props) => (
                             <tr>
                                 <td>10:00</td>
                                 <td>
-                                    Board Buses for Canadian Fallen Firefighter<br/>
+                                    Board buses for Canadian Fallen Firefighter<br/>
                                     Memorial and Canadian War Museum
                                 </td>
                             </tr>
@@ -193,7 +193,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>15:00</td>
-                                <td>Buses leave for Hotel</td>
+                                <td>Buses leave for hotel</td>
                             </tr>
                             <tr>
                                 <td>18:00</td>
@@ -205,7 +205,7 @@ const Schedule = (props) => (
                             </tr>
                             <tr>
                                 <td>22:00 - 23:00</td>
-                                <td>Hospitality Room</td>
+                                <td>Hospitality room</td>
                             </tr>
                         </tbody>
                     </table>
