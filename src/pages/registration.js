@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
+import pic20 from '../assets/images/pic20.png'
 
 const Registration = (props) => (
     <Layout>
@@ -17,10 +17,48 @@ const Registration = (props) => (
                     <header className="major">
                         <h1>Registration</h1>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <h3>Pricing</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Full registration prior to August 1, 2021</td>
+                                <td>CAD$325.00</td>
+                            </tr>
+                            <tr>
+                                <td>Full registration after August 1, 2021</td>
+                                <td>CAD$350.00</td>
+                            </tr>
+                            <tr>
+                                <td>Banquet only</td>
+                                <td>CAD$100.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>Registration form</h3>
+                    <a href="https://assets.ifba.org/documents/IFBA+2021+Ottawa+Registration+Form+(NF).pdf">
+                        Download PDF here (269 KB)
+                        <br/>
+                        <img src={pic20} alt="" />
+                    </a>
+                    
+                    <br/>
+                    <br/>
+
+                    <h3>Payment methods</h3>
+                    <p>Please email Rene Bougie prior to submitting payment: <a href="mailto:2021ifba@gmail.com">2021ifba@gmail.com</a></p>
+                    <h4>Post</h4>
+                    <p>
+                        International Money Orders in Canadian dollars can be mailed to:
+                        <br/>
+                        <br/>
+                        IFBA 2021 CONVENTION<br/>
+                        7-45 chemin Haendel<br/>
+                        Candiac, Quebec J5R 1R7<br/>
+                        Canada
+                    </p>
+                    <h4>Electronic</h4>
+                    <p><a href="https://paypal.me/ifbaottawa">PayPal.me/ifbaottawa</a></p>
                 </div>
             </section>
         </div>

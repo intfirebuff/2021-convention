@@ -2,8 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
-
 const Schedule = (props) => (
     <Layout>
         <Helmet>
@@ -15,10 +13,9 @@ const Schedule = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Schedule</h1>
+                        <h1>Convention Schedule</h1>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
+                    <p>*** SUBJECT TO CHANGE ***</p>
                     <table>
                         <thead>
                             <tr>

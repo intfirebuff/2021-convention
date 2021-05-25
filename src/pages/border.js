@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic11 from '../assets/images/pic11.jpg'
+import pic02 from '../assets/images/pic02.jpg'
 
 const BorderStatus = (props) => (
     <Layout>
@@ -17,10 +17,27 @@ const BorderStatus = (props) => (
                     <header className="major">
                         <h1>Border Status</h1>
                     </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <span className="image right"><img src={pic02} alt="" /></span>
+                    {/* <h3>YOUR PASSPORT IS REQUIRED TO ENTER CANADA</h3> */}
+                    <p>As of March 21, 2020, all foreign nationals are prohibiting from entering Canada for tourism, entertainment or leisure purposes. We will update this space with additional, relevant information once border restrictions are lifted.</p>
+                    <p>Note: A valid passport is required to enter Canada.</p>
+                    <br/>
+                    <h3>Useful links</h3>
+                    <p>
+                        <strong>COVID-19: Travel, quarantine, and borders</strong><br/>
+                        Find out if you can enter Canada<br/>
+                        <a href="https://travel.gc.ca/travel-covid">https://travel.gc.ca/travel-covid</a>
+                    </p>
+                    <p>
+                        <strong>Crossing the border to Canada</strong><br/>
+                        What to expect on entry and how we screen travellers<br/>
+                        <a href="https://travel.gc.ca/travel-covid/travel-restrictions/border">https://travel.gc.ca/travel-covid/travel-restrictions/border</a>
+                    </p>
+                    <p>
+                        <strong>CDC Travel Notices</strong><br/>
+                        Key Information for Travelers to Canada<br/>
+                        <a href="https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-canada">https://wwwnc.cdc.gov/travel/notices/covid-4/coronavirus-canada</a>
+                    </p>
                 </div>
             </section>
         </div>

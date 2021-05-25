@@ -75,18 +75,6 @@
 			min-height: 0;
 		}
 
-/* Contact */
-
-	#contact:after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	#contact > .inner > * {
-		float: left;
-	}
-
 /* Menu */
 
 	#menu .inner {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Banner = (props) => (
     <section id="banner" className="major">
@@ -7,10 +8,10 @@ const Banner = (props) => (
                 <h1>2021 IFBA Convention</h1>
             </header>
             <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
+                <p>Join us in Canada's National Capital Region<br/>
+                from September 12 - 16, 2021</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Register Today</a></li>
+                    <li><Link to="/registration" className="button next scrolly">Register Today</Link></li>
                 </ul>
             </div>
         </div>

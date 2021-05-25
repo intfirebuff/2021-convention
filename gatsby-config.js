@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Forty V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
+    title: "2021 IFBA Convention",
+    author: "Ian Duke",
+    description: "Join us in Ottawa-Gatineau for the IFBA 2021 Annual Convention"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
