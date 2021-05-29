@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Layout from '../components/layout'
 
 import pic20 from '../assets/images/pic20.jpg'
@@ -36,17 +37,17 @@ const Registration = (props) => (
                     </table>
 
                     <h3>Registration form</h3>
-                    <a href="https://assets.ifba.org/documents/IFBA+2021+Ottawa+Registration+Form+(NF).pdf">
+                    <OutboundLink href="https://assets.ifba.org/documents/IFBA+2021+Ottawa+Registration+Form+(NF).pdf">
                         Download PDF here (269 KB)
                         <br/>
                         <img src={pic20} alt="" />
-                    </a>
+                    </OutboundLink>
                     
                     <br/>
                     <br/>
 
                     <h3>Payment methods</h3>
-                    <p>Please email Rene Bougie prior to submitting payment: <a href="mailto:2021ifba@gmail.com">2021ifba@gmail.com</a></p>
+                    <p>Please email Rene Bougie prior to submitting payment: <OutboundLink href="mailto:2021ifba@gmail.com">2021ifba@gmail.com</OutboundLink></p>
                     <h4>Post</h4>
                     <p>
                         International Money Orders in Canadian dollars can be mailed to:
@@ -58,7 +59,7 @@ const Registration = (props) => (
                         Canada
                     </p>
                     <h4>Electronic</h4>
-                    <p><a href="https://paypal.me/ifbaottawa">PayPal.me/ifbaottawa</a></p>
+                    <p><OutboundLink href="https://paypal.me/ifbaottawa">PayPal.me/ifbaottawa</OutboundLink></p>
                 </div>
             </section>
         </div>

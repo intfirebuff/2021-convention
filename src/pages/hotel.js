@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Layout from '../components/layout'
 
 import pic12 from '../assets/images/pic12.jpg'
@@ -69,7 +70,7 @@ const Hotel = (props) => (
                             <li>Garage clearance 5'9"</li>
                         </ul>
                     <h3>Hotel Website</h3>
-                    <a href="https://www.hilton.com/en/hotels/yowqshw-homewood-suites-ottawa-downtown/">https://www.hilton.com/en/hotels/yowqshw-homewood-suites-ottawa-downtown/</a>
+                    <OutboundLink href="https://www.hilton.com/en/hotels/yowqshw-homewood-suites-ottawa-downtown/">https://www.hilton.com/en/hotels/yowqshw-homewood-suites-ottawa-downtown/</OutboundLink>
                     </section>
 
                     <br/>
