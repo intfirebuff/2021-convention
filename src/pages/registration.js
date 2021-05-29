@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import pic20 from '../assets/images/pic20.png'
+import pic20 from '../assets/images/pic20.jpg'
 
 const Registration = (props) => (
     <Layout>
