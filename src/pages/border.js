@@ -3,12 +3,29 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import pic02 from '../assets/images/pic02.jpg'
+import metaImg from '../assets/images/meta-img.jpg'
+
+const title = 'Border Status - 2021 IFBA Convention';
+const description = 'See the latest entry requirements for attending the 2021 IFBA Convention, September 12-16 in Ottawa-Gatineau';
+const twitterAuthor = '@intfirebuff';
+const image = metaImg;
 
 const BorderStatus = (props) => (
     <Layout>
         <Helmet>
-            <title>Border Status - 2021 IFBA Convention</title>
-            <meta name="description" content="Border Status" />
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta property="og:url" content="https://convention.ifba.org/border" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={image} />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content={twitterAuthor} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:image" content={image} />
         </Helmet>
 
         <div id="main" className="alt">

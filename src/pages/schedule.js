@@ -2,11 +2,29 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
+import metaImg from '../assets/images/meta-img.jpg'
+
+const title = 'Schedule - 2021 IFBA Convention';
+const description = "See the exciting activites planned for the 2021 IFBA Convention. Hosted in Ottawa-Gatineau from September 12 - 16, 2021";
+const twitterAuthor = '@intfirebuff';
+const image = metaImg;
+
 const Schedule = (props) => (
     <Layout>
         <Helmet>
-            <title>Schedule - 2021 IFBA Convention</title>
-            <meta name="description" content="Schedule" />
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta property="og:url" content="https://convention.ifba.org/schedule" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={image} />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content={twitterAuthor} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:image" content={image} />
         </Helmet>
 
         <div id="main" className="alt">

@@ -8,18 +8,32 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic15 from '../assets/images/pic15.jpg'
+import metaImg from '../assets/images/meta-img.jpg'
+
+const title = '2021 IFBA Convention';
+const description = "Join us in Ottawa-Gatineau from Sept 12-16 for the IFBA Annual Convention";
+const twitterAuthor = '@intfirebuff';
+const image = metaImg;
 
 class HomeIndex extends React.Component {
     render() {
 
         return (
             <Layout>
-                <Helmet
-                    title="2021 IFBA Convention"
-                    meta={[
-                        { name: 'description', content: "Join us in Ottawa-Gatineau for the IFBA 2021 Annual Convention" },
-                    ]}
-                >
+                <Helmet>
+                    <title>{title}</title>
+                    <meta name="description" content={description} />
+                    <meta property="og:url" content="https://convention.ifba.org" />
+                    <meta property="og:type" content="article" />
+                    <meta property="og:title" content={title} />
+                    <meta property="og:description" content={description} />
+                    <meta property="og:image" content={image} />
+
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:creator" content={twitterAuthor} />
+                    <meta name="twitter:title" content={title} />
+                    <meta name="twitter:description" content={description} />
+                    <meta name="twitter:image" content={image} />
                 </Helmet>
 
                 <Banner />

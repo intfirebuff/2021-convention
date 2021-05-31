@@ -4,12 +4,29 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import Layout from '../components/layout'
 
 import pic20 from '../assets/images/pic20.jpg'
+import metaImg from '../assets/images/meta-img.jpg'
+
+const title = 'Registration - 2021 IFBA Convention';
+const description = "Register now for the 2021 IFBA Annual Convention in Ottawa-Gatineau";
+const twitterAuthor = '@intfirebuff';
+const image = metaImg;
 
 const Registration = (props) => (
     <Layout>
         <Helmet>
-            <title>Registration - 2021 IFBA Convention</title>
-            <meta name="description" content="Registration" />
+            <title>{title}</title>
+            <meta name="description" content={description} />
+            <meta property="og:url" content="https://convention.ifba.org/registration" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content={title} />
+            <meta property="og:description" content={description} />
+            <meta property="og:image" content={image} />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:creator" content={twitterAuthor} />
+            <meta name="twitter:title" content={title} />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:image" content={image} />
         </Helmet>
 
         <div id="main" className="alt">
