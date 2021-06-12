@@ -14,7 +14,7 @@ import metaImg from '../assets/images/meta-img.jpg'
 const title = 'Hotel - 2021 IFBA Convention';
 const description = "Plan your stay in Ottawa-Gatineau for the IFBA Annual Convention. Coming September 2021 in Ottawa-Gatineau";
 const twitterAuthor = '@intfirebuff';
-const image = metaImg;
+const image = `https://convention.ifba.org${metaImg}`;
 
 const Hotel = (props) => (
     <Layout>
@@ -26,6 +26,7 @@ const Hotel = (props) => (
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image} />
+            <meta property="og:type" content="website" />
 
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content={twitterAuthor} />

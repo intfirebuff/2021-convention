@@ -13,7 +13,7 @@ import metaImg from '../assets/images/meta-img.jpg'
 const title = '2021 IFBA Convention';
 const description = "Join us in Ottawa-Gatineau from Sept 12-16 for the IFBA Annual Convention";
 const twitterAuthor = '@intfirebuff';
-const image = metaImg;
+const image = `https://convention.ifba.org${metaImg}`;
 
 class HomeIndex extends React.Component {
     render() {
@@ -28,6 +28,7 @@ class HomeIndex extends React.Component {
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
                     <meta property="og:image" content={image} />
+                    <meta property="og:type" content="website" />
 
                     <meta name="twitter:card" content="summary_large_image" />
                     <meta name="twitter:creator" content={twitterAuthor} />

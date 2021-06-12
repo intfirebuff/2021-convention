@@ -8,7 +8,7 @@ import metaImg from '../assets/images/meta-img.jpg'
 const title = 'Border Status - 2021 IFBA Convention';
 const description = 'See the latest entry requirements for attending the 2021 IFBA Convention, September 12-16 in Ottawa-Gatineau';
 const twitterAuthor = '@intfirebuff';
-const image = metaImg;
+const image = `https://convention.ifba.org${metaImg}`;
 
 const BorderStatus = (props) => (
     <Layout>
@@ -20,6 +20,7 @@ const BorderStatus = (props) => (
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:image" content={image} />
+            <meta property="og:type" content="website" />
 
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:creator" content={twitterAuthor} />
